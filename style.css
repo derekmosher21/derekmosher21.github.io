@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+* {
+    font: 700 16px 'Open Sans', sans-serif;
+    
+ 
+}
+
+.title {
+    background-color: #3E5C76;
+    color: #ffffff;
+    font-size: 100px;
+}
+
+.quick_links {
+    background-color: #3E5C76;
+    color: #ffffff ;
+}
