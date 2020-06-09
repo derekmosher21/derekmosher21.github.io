@@ -1,18 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
+/*
+Color Palette 
+https://coolors.co/4c5454-ff715b-ffffff-1ea896-523f38
+#4C5454 grey 
+#FF715B orange
+#FFFFFF white
+#1EA896 green
+#523F38 brown
+*/
+
 * {
-    font: 700 16px 'Open Sans', sans-serif;
-    
- 
+    font-family: 'Open Sans', sans-serif;   
 }
 
-.title {
-    background-color: #3E5C76;
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+
+header {
+    background: #523F38;
     color: #ffffff;
-    font-size: 100px;
 }
 
-.quick_links {
-    background-color: #3E5C76;
-    color: #ffffff ;
-}
