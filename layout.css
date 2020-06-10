@@ -1,29 +1,52 @@
-
 .title {
-    display: grid;
-    margin: 2rem auto;
-    padding: 11px;
-    max-width: 1000px;
-
+  display: grid;
+  margin: 2rem auto;
+  padding: 11px;
+  max-width: 1000px;
 }
+
+body {
+  text-align: center;
+  margin: 0 auto;
+  padding: 60px 0;
+  font-size: 15px;
+  line-height: 1.5;
+
+ 
+  background-size: cover;
+}
+
 nav {
-    display: grid;
-    margin: 2rem auto 2rem auto;
-    width: 1000px;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  
+  display: grid;
+  margin: 2rem auto 2rem auto;
+  width: 1000px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 img {
-    display: grid;
-    margin: 2rem auto 2rem auto;
-    width: auto;
-    height: auto;
-    max-width: 800px;
-    
+  display: grid;
+  margin: 2rem auto 2rem auto;
+  width: auto;
+  height: auto;
+  max-width: 800px;
+}
+
+.website-list {
+    display: inline-flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: auto;
+  
 }
 
 h1 {
-    font-size: 100px;
-    line-height: 1;
+  font-size: 100px;
+  line-height: 1;
 }
+
+
+p {
+    width: 60%;
+    margin: auto;
+}
+

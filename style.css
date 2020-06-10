@@ -1,29 +1,36 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
 
 /*
 Color Palette 
-https://coolors.co/4c5454-ff715b-ffffff-1ea896-523f38
-#4C5454 grey 
-#FF715B orange
-#FFFFFF white
-#1EA896 green
-#523F38 brown
+https://coolors.co/2b4162-385f71-f5f0f6-d7b377-8f754f
+#2B4162 dark blue
+#385F71 medium blue
+#F5F0F6 white
+#D7B377 tan 
+#8F754F brown
 */
 
 * {
-    font-family: 'Open Sans', sans-serif;   
+  font-family: "Open Sans", sans-serif;
 }
-
-html {
-    box-sizing: border-box;
-  }
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
-
 
 header {
-    background: #523F38;
-    color: #ffffff;
+  background: #2b4162;
+  color: #ffffff;
 }
 
+.websites, .skills {
+    background: #D7B377 ;
+}
+
+.hobbies {
+    background: #385F71 ;
+}
+
+.all-projects {
+    background: #8F754F;
+}
+
+footer {
+    background: #8F754F ;
+}
