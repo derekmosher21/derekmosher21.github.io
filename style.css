@@ -2,35 +2,39 @@
 
 /*
 Color Palette 
-https://coolors.co/2b4162-385f71-f5f0f6-d7b377-8f754f
-#2B4162 dark blue
-#385F71 medium blue
-#F5F0F6 white
-#D7B377 tan 
-#8F754F brown
+https://coolors.co/000000-d3d3d3-2b4162-ffffff-ff7f50
 */
+:root {
+  --color1-black: #000000;
+  --color2-lightGray: #d3d3d3;
+  --color3-darkBlue: #2b4162;
+  --color4-white: #ffffff;
+  --color5-orange: #ff7f50;
+}
 
 * {
   font-family: "Open Sans", sans-serif;
 }
 
 header {
-  background: #2b4162;
-  color: #ffffff;
+  background: var(--color3-darkBlue);
+  color: var(--color4-white);
 }
 
-.websites, .skills {
-    background: #D7B377 ;
+.websites,
+.skills {
+  background: var(--color2-lightGray);
 }
 
 .hobbies {
-    background: #385F71 ;
+  background: var(--color3-darkBlue);
+  color: var(--color4-white);
 }
 
 .all-projects {
-    background: #8F754F;
+  background: var(--color2-lightGray);
 }
 
 footer {
-    background: #8F754F ;
+  background: var(--color5-orange);
 }
