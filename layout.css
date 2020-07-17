@@ -28,19 +28,19 @@ main {
   padding: 10px 0;
 }
 
-nav {
+/* nav {
   display: grid;
   margin: 2rem auto 2rem auto;
   width: 1000px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-}
+} */
 
 img {
-  
   margin: 2% auto;
   width: auto;
   height: auto;
-  max-width: 800px;
+  max-width: 600px;
+  border-radius: 25px;
 }
 
 .website-list {
