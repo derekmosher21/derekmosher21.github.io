@@ -22,11 +22,11 @@ header {
 }
 
 .websites,
-.skills {
+.skills-wrapper {
   background: var(--color2-lightGray);
 }
 
-.hobbies {
+.hobbies-wrapper {
   background: var(--color3-darkBlue);
   color: var(--color4-white);
 }
