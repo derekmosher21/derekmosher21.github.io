@@ -43,11 +43,21 @@ img {
   border-radius: 25px;
 }
 
-.website-list {
-  display: inline-flex;
-  justify-content: center;
-  list-style-type: none;
+.websites-wrapper {
+  max-width: 80%;
   margin: auto;
+  border-radius: 25px;
+}
+
+.website-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+
+.website-list li a {
+  text-decoration: none;
 }
 
 .skills-wrapper {
