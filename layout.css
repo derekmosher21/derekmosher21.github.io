@@ -1,3 +1,22 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+
+
+/*
+Color Palette 
+https://coolors.co/000000-d3d3d3-2b4162-ffffff-ff7f50
+*/
+:root {
+  --color1-black: #000000;
+  --color2-lightGray: #d3d3d3;
+  --color3-darkBlue: #2b4162;
+  --color4-white: #ffffff;
+  --color5-orange: #ff7f50;
+}
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -16,9 +35,9 @@ body {
   line-height: 1.5;
 }
 
-main {
-  font-size: 15px;
-  line-height: 1.5;
+header {
+  background: var(--color3-darkBlue);
+  color: var(--color4-white);
 }
 
 .header-wrap {
@@ -27,6 +46,13 @@ main {
   margin: 0 auto;
   padding: 10px 0;
 }
+
+main {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+
 
 /* nav {
   display: grid;
@@ -44,6 +70,7 @@ img {
 }
 
 .websites-wrapper {
+  background: var(--color2-lightGray);
   max-width: 80%;
   margin: auto;
   border-radius: 25px;
@@ -61,15 +88,22 @@ img {
 }
 
 .skills-wrapper {
+  background: var(--color2-lightGray);
   max-width: 80%;
   margin: auto;
   border-radius: 25px;
 }
 
 .hobbies-wrapper {
+  background: var(--color3-darkBlue);
+  color: var(--color4-white);
   max-width: 80%;
   margin: auto;
   border-radius: 25px;
+}
+
+.all-projects {
+  background: var(--color2-lightGray);
 }
 
 h1 {
@@ -80,4 +114,8 @@ h1 {
 p {
   width: 60%;
   margin: auto;
+}
+
+footer {
+  background: var(--color5-orange);
 }
