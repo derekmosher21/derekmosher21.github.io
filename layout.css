@@ -14,41 +14,52 @@ https://coolors.co/000000-d3d3d3-2b4162-ffffff-ff7f50
 
 * {
   font-family: "Open Sans", sans-serif;
+  line-height: 1.618;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-  box-sizing: border-box;
+  font-size: 16px;
+  margin-top: 3em;
 }
 
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
+h1,
+h2,
+h3,
+p {
+  padding-left: 12px;
+  padding-bottom: 16px;
+}
+
+header,
+main,
+footer {
+  margin: 0 auto;
+  max-width: 800px;
 }
 
 body {
   text-align: center;
-  margin: 0;
-  padding: 0;
-  font-size: 15px;
-  line-height: 1.5;
 }
 
 header {
   background: var(--color3-darkBlue);
   color: var(--color4-white);
+  padding: 4em 0;
+  height: 200px;
+  border-radius: 10px;
+  text-align: center;
 }
 
-.header-wrap {
-  max-width: 1000px;
-  width: 85%;
-  margin: 0 auto;
-  padding: 10px 0;
+header h1 {
+  margin-top: -25px;
+  font-size: 3em;
 }
 
-h1 {
-  font-size: 100px;
-  line-height: 1;
+header span {
+  font-size: 1em;
 }
 
 main {
@@ -56,52 +67,31 @@ main {
   line-height: 1.5;
 }
 
-/* nav {
-  display: grid;
-  margin: 2rem auto 2rem auto;
-  width: 1000px;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-} */
-
 img {
   margin: 2% auto;
   width: auto;
   height: auto;
   max-width: 600px;
-  border-radius: 25px;
+  border-radius: 15px;
+}
+
+.my-story-container {
+  background-color: var(--color2-lightGray);
 }
 
 .websites-wrapper {
   background: var(--color2-lightGray);
   max-width: 80%;
   margin: auto;
-  border-radius: 25px;
 }
-
-.website-list {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  list-style-type: none;
-}
-
-.website-list li a {
-  text-decoration: none;
-}
-
 .skills-wrapper {
   background: var(--color2-lightGray);
-  max-width: 80%;
   margin: auto;
-  border-radius: 25px;
 }
 
 .hobbies-wrapper {
-  background: var(--color3-darkBlue);
-  color: var(--color4-white);
-  max-width: 80%;
+  background: var(--color2-lightGray);
   margin: auto;
-  border-radius: 25px;
 }
 
 .all-projects {
@@ -109,11 +99,9 @@ img {
 }
 
 .contact-info-container {
-  max-width: 80%;
   background-color: var(--color2-lightGray);
   margin: auto;
   margin-bottom: 25px;
-  border-radius: 25px;
 }
 
 .icons-container {
@@ -126,9 +114,17 @@ img {
   height: auto;
 }
 
-p {
-  width: 60%;
-  margin: auto;
+section {
+  margin: 1em 0;
+  padding-top: 5em;
+  min-height: 10em;
+  border-radius: 15px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+section > p {
+  margin: 1em 0;
 }
 
 footer {
