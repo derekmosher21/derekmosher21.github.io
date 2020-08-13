@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
 
-
 /*
 Color Palette 
 https://coolors.co/000000-d3d3d3-2b4162-ffffff-ff7f50
@@ -47,12 +46,15 @@ header {
   padding: 10px 0;
 }
 
+h1 {
+  font-size: 100px;
+  line-height: 1;
+}
+
 main {
   font-size: 15px;
   line-height: 1.5;
 }
-
-
 
 /* nav {
   display: grid;
@@ -106,9 +108,22 @@ img {
   background: var(--color2-lightGray);
 }
 
-h1 {
-  font-size: 100px;
-  line-height: 1;
+.contact-info-container {
+  max-width: 80%;
+  background-color: var(--color2-lightGray);
+  margin: auto;
+  margin-bottom: 25px;
+  border-radius: 25px;
+}
+
+.icons-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons-container img {
+  width: 140px;
+  height: auto;
 }
 
 p {
@@ -117,5 +132,5 @@ p {
 }
 
 footer {
-  background: var(--color5-orange);
+
 }
