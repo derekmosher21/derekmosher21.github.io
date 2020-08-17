@@ -22,7 +22,7 @@ https://coolors.co/000000-d3d3d3-2b4162-ffffff-ff7f50
 
 html {
   font-size: 16px;
-  margin-top: 3em;
+  margin-top: 1em;
 }
 
 h1,
@@ -89,9 +89,9 @@ img {
   margin: auto;
 }
 
-.hobbies-wrapper {
+.profile-summary-container {
   background: var(--color2-lightGray);
-  margin: auto;
+  /* margin: auto; */
 }
 
 .all-projects {
@@ -110,7 +110,7 @@ img {
 }
 
 .icons-container img {
-  width: 140px;
+  width: 110px;
   height: auto;
 }
 
@@ -121,6 +121,7 @@ section {
   border-radius: 15px;
   padding-left: 12px;
   padding-right: 12px;
+  border-style: solid;
 }
 
 section > p {
