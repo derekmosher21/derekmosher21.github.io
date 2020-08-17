@@ -75,6 +75,11 @@ img {
   border-radius: 15px;
 }
 
+.profile-summary-container {
+  background: var(--color2-lightGray);
+  /* margin: auto; */
+}
+
 .my-story-container {
   background-color: var(--color2-lightGray);
 }
@@ -89,13 +94,12 @@ img {
   margin: auto;
 }
 
-.profile-summary-container {
-  background: var(--color2-lightGray);
-  /* margin: auto; */
-}
-
 .all-projects {
   background: var(--color2-lightGray);
+}
+
+.all-projects .projects {
+  /* border-style: solid; */
 }
 
 .contact-info-container {
