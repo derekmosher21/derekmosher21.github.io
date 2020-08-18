@@ -123,11 +123,16 @@ main {
 .icons-container {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 1em;
 }
 
 .icons-container img {
   width: 110px;
   height: auto;
+}
+
+.icons-container img:hover {
+ transform: scale(1.1);
 }
 
 section {
@@ -144,5 +149,26 @@ section > p {
   margin: 1em 0;
 }
 
+section:hover {
+  border-color: var(--color5-orange);
+}
+
 footer {
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color2-lightGray);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color3-darkBlue);
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color5-orange);
 }
