@@ -67,7 +67,7 @@ main {
   line-height: 1.5;
 }
 
-img {
+.main-image-container img {
   margin: 2% auto;
   width: auto;
   height: auto;
@@ -96,10 +96,22 @@ img {
 
 .all-projects {
   background: var(--color2-lightGray);
+  display: flex;
+  flex-direction: column;
 }
 
 .all-projects .projects {
   /* border-style: solid; */
+}
+
+.all-projects .projects img {
+  margin: 1em 0;
+  width: auto;
+  height: auto;
+  max-width: 700px;
+  border-style: solid;
+  border-color: var(--color1-black);
+  border-radius: 15px;
 }
 
 .contact-info-container {
